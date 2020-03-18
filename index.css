@@ -195,6 +195,9 @@ span.links {
     padding: 1% 1% 1% 1%;
     cursor: pointer;
     border-radius: 4px;
+    border-style: solid;
+    border-color: #a00;
+    border-width: 2px;
 }
 
 .meminfo .close button:hover {
