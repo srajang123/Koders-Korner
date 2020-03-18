@@ -32,15 +32,15 @@ li.link {
     width: 8vw;
 }
 
-li.active a {
-    color: #0000f2;
-}
-
 li.link a {
     color: #f20000;
     text-align: center;
     text-decoration: none;
     font-size: 3vh;
+}
+
+li.active a {
+    color: #0000f2;
 }
 
 li.link a:hover {
@@ -134,6 +134,7 @@ span.links {
     border-width: 5px;
     border-color: #333;
     box-shadow: 0 0 8px 4px #111;
+    visibility: hidden;
 }
 
 .meminfo .mem-name {
