@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #010101;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #000;
+    display: block;
+    box-shadow: 0 0 8px #555;
+    margin-bottom: 40px;
+}
+
+h1.title {
+    color: #ffffff;
+    font-size: 7vh;
+    padding-top: 1px;
+}
+
+ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.link {
+    display: inline-block;
+    width: 8vw;
+}
+
+li.active a {
+    color: #0000f2;
+}
+
+li.link a {
+    color: #f20000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+li.link a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+span.links {
+    display: block;
+    position: relative;
+    top: -4vh;
+    left: 55vw;
+}
+
+
+/*footer work*/
+
+.footer {
+    /*position: fixed;*/
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+/**************************/
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.member {
+    width: 16vw;
+    /*height: 40vh;*/
+    background-color: #fff;
+    margin-top: 4%;
+    margin-right: 1%;
+    border-radius: 8px;
+    display: block;
+    padding-top: 1%;
+}
+
+.member:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 4px #a00;
+}
+
+.member .logo img {
+    width: 10em;
+    margin-left: 13%;
+}
+
+.member .name {
+    color: #af0000;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.member .profiles {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.member .profiles a {
+    color: #004;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.meminfo {
+    background-color: #39a5b8;
+    background-color: #cfa092;
+    background-color: #fff;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 15px;
+    position: fixed;
+    top: 15vh;
+    left: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #333;
+    box-shadow: 0 0 8px 4px #111;
+}
+
+.meminfo .mem-name {
+    font-size: 220%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.meminfo .mem-img img {
+    height: 40vh;
+    width: 25vw;
+    margin-left: 28%;
+    border-radius: 10px;
+}
+
+.meminfo .mem-achi .tit {
+    font-size: 150%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.meminfo .mem-achi ul.ach {
+    list-style-type: circle;
+    margin-left: 25%;
+    font-size: 105%;
+    color: red;
+}
+
+.meminfo .mem-profiles table.profiles {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.meminfo .mem-profiles table.profiles tr td {
+    width: 25vw;
+    background-color: #cfcfcf;
+    text-align: center;
+}
+
+.meminfo .mem-profiles table.profiles tr td a {
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.meminfo .close button {
+    display: block;
+    background-color: #fff;
+    border-width: 0;
+    text-align: center;
+    color: #a00;
+    font-weight: 700;
+    margin-left: 45%;
+    font-size: 100%;
+    width: 8%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.meminfo .close button:hover {
+    background-color: #a00;
+    color: #fff;
+}
