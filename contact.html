@@ -25,9 +25,46 @@
     </div>
     <div class="body">
         <div class="contact-form">
+            <h1>Contact Us </h1>
             <form name="contact" actione="/" method="post">
                 <table class="contact">
-
+                    <tr class="cont-form-row">
+                        <!--<th class="">Name</th>-->
+                        <td><input type="text" placeholder="Name" class="text name" name="name" id="name"></td>
+                    </tr>
+                    <tr class="cont-form-row">
+                        <!--<th class="">Year</th>-->
+                        <td><select name="year" class="sel year">
+                            <option value="-1">Year</option>
+                            <option value="1">Ist year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                        </select></td>
+                    </tr>
+                    <tr class="cont-form-row">
+                        <!--<th class="">Branch</th>-->
+                        <td><select name="branch" class="sel branch">
+                            <option value="-1">Branch</option>
+                            <option value="cse">Computer Science and Engineering</option>
+                            <option value="it">Information Technology</option>
+                            <option value="ece">Electronics and Communication</option>
+                            <option value="me">Mechanical Engineering</option>
+                            <option value="ce">Civil Engineering</option>
+                            <option value="en">Electical Engineering</option>
+                        </select></td>
+                    </tr>
+                    <tr class="cont-form-row">
+                        <!--<th class="">E-Mail</th>-->
+                        <td><input type="text" placeholder="E-Mail" class="text mail" name="mail" id="mail"></td>
+                    </tr>
+                    <tr class="cont-form-row">
+                        <!--<th class="">Query</th>-->
+                        <td><textarea class="textarea query" name="query" id="query" placeholder="Query"></textarea></td>
+                    </tr>
+                    <tr class="cont-form-row">
+                        <td><input type="submit" class="button submit" value="Contact Us"></td>
+                    </tr>
                 </table>
             </form>
         </div>
