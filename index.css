@@ -215,8 +215,10 @@ span.links {
     height: 65vh;
     padding-top: 1%;
     margin: auto;
-    border-radius: 4px;
+    border-radius: 10px;
     box-shadow: 0 0 4px 4px #454545;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
 .contact-form h1 {
@@ -287,23 +289,52 @@ table.contact {
 
 .button:hover {
     cursor: pointer;
+    background-color: #454545;
+    color: #fafafa;
+    font-weight: 700;
+    margin-left: 31%;
 }
 
 
 /*sources*/
 
+.figures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+.figure {
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.figure:hover {
+    cursor: pointer;
+}
+
 .square {
-    width: 100px;
-    height: 100px;
-    background-color: #a00;
+    text-align: center;
+    padding-top: 0.1%;
+    width: 150px;
+    height: 40px;
+    background-color: #f7ce04;
     margin-left: 5%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    font-size: 180%;
+    font-weight: 700;
 }
 
 .triangle {
-    width: 0;
-    height: 0;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background-color: #ff5400;
     margin-left: 5%;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 60px solid #00f;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 15%;
 }
