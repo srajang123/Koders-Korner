@@ -338,3 +338,109 @@ table.contact {
     border-bottom-right-radius: 20px;
     padding-top: 15%;
 }
+
+
+/*Doubts*/
+
+table.doubts {
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f00;
+    padding: 1%;
+    box-shadow: 0 0 8px 4px #f00;
+}
+
+td.doubt-field .text {
+    width: 30vw;
+    font-size: 100%
+}
+
+td.doubt-field .textarea {
+    width: 30vw;
+    font-size: 100%;
+}
+
+td.doubt-field {
+    color: #fff;
+    font-size: 120%;
+}
+
+td.right {
+    width: 35vw;
+    padding-left: 4%;
+}
+
+td.doubt-field-btn {
+    padding-left: 20%;
+}
+
+.btn {
+    font-size: 90%;
+    background-color: #cfcfcf;
+    border-width: 0;
+    border-radius: 4px;
+    height: 4vh;
+    width: 10vw;
+    margin-right: 15%;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #cfcfcf;
+}
+
+
+/**index**/
+
+table.subs {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: #f20000;
+    background-color: #cfcfcf;
+    box-shadow: 0 0 2px 2px #fff;
+    margin: auto;
+    width: 42vw;
+    padding-left: 0.2%;
+}
+
+td.subs .msg {
+    font-size: 120%;
+    padding-bottom: 4%;
+    padding-top: 1%;
+    padding-left: 1%;
+    color: #1a1a1a;
+}
+
+.text-subs {
+    width: 40vw;
+    height: 5vh;
+    padding-left: 2%;
+    font-size: 90%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #454544;
+}
+
+.sub-subs {
+    background-color: #910b3c;
+    color: #fff;
+    border-width: 0;
+    height: 5vh;
+    width: 20vw;
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+
+.sub-subs:hover {
+    cursor: pointer;
+    border-width: 1px;
+    border-color: #000;
+}
