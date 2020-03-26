@@ -444,3 +444,78 @@ td.subs .msg {
     border-width: 1px;
     border-color: #000;
 }
+
+.front .b h1 {
+    color: #db7d1e;
+    font-size: 800%;
+}
+
+.front {
+    height: 85vh;
+}
+
+.b1 {
+    position: relative;
+    animation-name: b1a;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.b2 {
+    position: relative;
+    animation-name: b2a;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    left: -50%;
+}
+
+.b3 {
+    position: relative;
+    animation-name: b3a;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    left: -50%;
+}
+
+@keyframes b1a {
+    0% {
+        left: -40%;
+    }
+    100% {
+        left: 6%;
+    }
+}
+
+@keyframes b2a {
+    0% {
+        left: -40%;
+    }
+    100% {
+        left: 30%;
+    }
+}
+
+@keyframes b3a {
+    0% {
+        left: -40%;
+    }
+    100% {
+        left: 55%;
+    }
+}
+
+.details {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+}
+
+p {
+    color: #aaa;
+    font-size: 120%;
+}
