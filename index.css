@@ -585,3 +585,38 @@ p {
     color: #fff;
     font-size: 120%;
 }
+
+
+/*Subscribers*/
+
+.subscribers table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    margin: auto;
+}
+
+.subscribers table tr td,
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    font-size: 120%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20vw;
+}
+
+.subscribers table tr td,
+th:first-child {
+    width: 5vw;
+}
+
+.subscribers table tr th {
+    color: #0033ff;
+}
+
+.subscribers table tr td {
+    color: #ffe100;
+}
