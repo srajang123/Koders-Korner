@@ -13,7 +13,6 @@ function CHK() {
         return true;
 }
 let Showerror = (msg) => {
-    //alert(msg);
     document.querySelector('.error h2').innerHTML = '!! ' + msg + ' !!';
     let a = setTimeout(() => {
         document.querySelector('.error h2').innerHTML = '&nbsp;';
