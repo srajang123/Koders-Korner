@@ -1,6 +1,7 @@
 let close = document.querySelector('.meminfo .close button');
 close.addEventListener('click', e => {
-    document.querySelector('.meminfo').style.visibility = "Hidden";
+    //document.querySelector('.meminfo').style.visibility = "Hidden";
+    closer();
 })
 let profile = document.querySelectorAll('.member');
 profile.forEach(el => {
@@ -9,6 +10,13 @@ profile.forEach(el => {
         })
     })
     //if(document.querySelector('.meminfo').style.visibility == "Visible" && )
+function closer() {
+    document.querySelector('.meminfo').style.visibility = "Hidden";
+    document.querySelector('.meminfo .mem-name').innerHTML = "";
+    document.querySelector('.meminfo .mem-img').innerHTML = "";
+    document.querySelector('.meminfo .mem-profiles').innerHTML = "";
+    document.querySelector('.meminfo .mem-achi').innerHTML = "";
+}
 document.onkeydown = function(evt) {
     evt = evt || window.event;
     var isEscape = false;
@@ -18,7 +26,8 @@ document.onkeydown = function(evt) {
         isEscape = (evt.keyCode === 27);
     }
     if (isEscape) {
-        document.querySelector('.meminfo').style.visibility = "Hidden"
+        //document.querySelector('.meminfo').style.visibility = "Hidden"
+        closer();
     }
 };
 let a = document.querySelector('.mem1');

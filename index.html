@@ -19,7 +19,7 @@
             <li class="link"><a href="./team.html">Team</a></li>
             <li class="link"><a href="./sources.html">Sources</a></li>
             <li class="link"><a href="./doubts.html">Doubts</a></li>
-            <li class="link"><a href="./doubts.html">Contact Us</a></li>
+            <li class="link"><a href="./contact.html">Contact Us</a></li>
         </ul>
         </span>
     </div>
@@ -48,15 +48,18 @@
             </p>
         </div>
         <div class="subscribe">
-            <form name="subscribe" method="post" onsubmit="return checkSubscribers()">
+            <form name="subscribe" method="post" onsubmit="return checkSubscribers()" autocomplete="off">
                 <table class="subs">
                     <tr class="subs">
                         <td class="subs">
                             <div class="msg">Subscribe for latest updates from KIET Koders Korner.............</div>
+                            <div class="error">
+                                <h2>&nbsp;</h2>
+                            </div>
                         </td>
                     </tr>
                     <tr class="subs">
-                        <td class="subs"><input type="text" class="text-subs" name="name" id="name" placeholder="Enter Your Name here"></td>
+                        <td class="subs"><input type="text" class="text-subs" name="name" id="name" placeholder="Enter Your Name here" autocapitalize="true"></td>
                     </tr>
                     <tr class="subs">
                         <td class="subs"><input type="text" class="text-subs" name="email" id="email" placeholder="Enter your E-mail here"></td>

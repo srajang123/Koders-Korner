@@ -224,11 +224,20 @@ span.links {
 
 /*Contact Us form */
 
+.error h2 {
+    color: #c00;
+    text-align: center;
+}
+
+.error {
+    padding-bottom: 1%;
+}
+
 .contact-form {
     display: block;
     background-color: #757575;
     width: 70vw;
-    height: 65vh;
+    height: 68vh;
     padding-top: 1%;
     margin: auto;
     border-radius: 10px;
@@ -427,7 +436,6 @@ table.subs {
 
 td.subs .msg {
     font-size: 120%;
-    padding-bottom: 4%;
     padding-top: 1%;
     padding-left: 1%;
     color: #1a1a1a;
@@ -443,6 +451,7 @@ td.subs .msg {
     border-width: 1px;
     border-radius: 2px;
     border-color: #454544;
+    outline: none;
 }
 
 .sub-subs {
@@ -453,6 +462,7 @@ td.subs .msg {
     width: 20vw;
     margin-left: 25%;
     margin-bottom: 1%;
+    outline: none;
 }
 
 .sub-subs:hover {
@@ -468,22 +478,24 @@ td.subs .msg {
 
 .b {
     -webkit-touch-callout: none;
-    /* iOS Safari */
     -webkit-user-select: none;
-    /* Safari */
     -khtml-user-select: none;
-    /* Konqueror HTML */
     -moz-user-select: none;
-    /* Old versions of Firefox */
     -ms-user-select: none;
-    /* Internet Explorer/Edge */
     user-select: none;
-    /* Non-prefixed version, currently
-                                    supported by Chrome, Opera and Firefox */
 }
 
 .front {
     height: 85vh;
+}
+
+.b h1 {
+    animation-name: ba;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .b1 {
@@ -512,6 +524,24 @@ td.subs .msg {
     animation-timing-function: linear;
     animation-delay: 2s;
     left: -50%;
+}
+
+@keyframes ba {
+    0% {
+        color: #ffc700;
+    }
+    25% {
+        color: #ca26ef;
+    }
+    50% {
+        color: #f00;
+    }
+    75% {
+        color: #ca26ef;
+    }
+    100% {
+        color: #ffc700;
+    }
 }
 
 @keyframes b1a {
