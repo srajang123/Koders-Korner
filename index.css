@@ -284,6 +284,10 @@ table.contact {
     outline: none;
 }
 
+.sel:hover {
+    cursor: pointer;
+}
+
 .textarea {
     width: 25vw;
     height: 25vh;
