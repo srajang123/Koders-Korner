@@ -488,6 +488,15 @@ td.subs .msg {
     height: 85vh;
 }
 
+.b h1 {
+    animation-name: ba;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .b1 {
     position: relative;
     animation-name: b1a;
@@ -514,6 +523,24 @@ td.subs .msg {
     animation-timing-function: linear;
     animation-delay: 2s;
     left: -50%;
+}
+
+@keyframes ba {
+    0% {
+        color: #ffc700;
+    }
+    25% {
+        color: #ca26ef;
+    }
+    50% {
+        color: #f00;
+    }
+    75% {
+        color: #ca26ef;
+    }
+    100% {
+        color: #ffc700;
+    }
 }
 
 @keyframes b1a {
