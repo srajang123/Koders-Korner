@@ -34,6 +34,7 @@ let a = document.querySelector('.mem1');
 let b, c;
 a.addEventListener('click', e => {
     b = a.children[2].value;
+    console.log(b);
     b = JSON.parse(b);
     console.log(b);
     document.querySelector('.meminfo .mem-name').innerHTML = b.name;
