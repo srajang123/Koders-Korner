@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #010101;
+    background-color: #121212;
     overflow-x: hidden;
 }
 
@@ -13,6 +13,22 @@ body {
     display: block;
     box-shadow: 0 0 8px #555;
     margin-bottom: 40px;
+}
+
+h1.title {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
 }
 
 h1.title {
@@ -124,7 +140,7 @@ span.links {
     background-color: #39a5b8;
     background-color: #cfa092;
     background-color: #fff;
-    height: 80vh;
+    height: 82vh;
     width: 60vw;
     border-radius: 15px;
     position: fixed;
@@ -446,8 +462,24 @@ td.subs .msg {
 }
 
 .front .b h1 {
-    color: #db7d1e;
+    color: #ffc700;
     font-size: 800%;
+}
+
+.b {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
 }
 
 .front {
@@ -516,6 +548,6 @@ td.subs .msg {
 }
 
 p {
-    color: #aaa;
+    color: #fff;
     font-size: 120%;
 }

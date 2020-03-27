@@ -48,7 +48,7 @@
             </p>
         </div>
         <div class="subscribe">
-            <form name="subscribe">
+            <form name="subscribe" method="post" onsubmit="return checkSubscribers()">
                 <table class="subs">
                     <tr class="subs">
                         <td class="subs">
@@ -59,7 +59,7 @@
                         <td class="subs"><input type="text" class="text-subs" name="name" id="name" placeholder="Enter Your Name here"></td>
                     </tr>
                     <tr class="subs">
-                        <td class="subs"><input type="text" class="text-subs" name="contact" id="contact" placeholder="Enter your E-mail here"></td>
+                        <td class="subs"><input type="text" class="text-subs" name="email" id="email" placeholder="Enter your E-mail here"></td>
                     </tr>
                     <tr class="subs">
                         <td class="subs" colspan="2"><input type="submit" class="sub-subs" value="SUBSCRIBE"></td>
