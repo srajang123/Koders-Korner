@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KIET Koders Korner</title>
+    <link rel="icon" href="../src/img/k3.jpg" type="img/jpg">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">KIET Koders Korner</h1>
+        <span class="links">
+        <ul class="links">
+            <li class="link "><a href="./index.html">Home</a></li>
+            <li class="link "><a href="./team.html">Team</a></li>
+            <li class="link active"><a href="./subscribers.html">Subscribers</a></li>
+            <li class="link "><a href="./doubts.html">Doubts</a></li>
+            <li class="link"><a href="./contact.html ">Contact Us</a></li>
+        </ul>
+        </span>
+    </div>
+    <div class="body">
+        <div class="msg">
+            <button class="msg btn">SEND MAIL</button>
+        </div>
+        <div class="message">
+            <div class="error">
+                <h2>&nbsp;</h2>
+            </div>
+            <form action="/subscriber-mail" name="subscriber-mail" method="post" onsubmit="return subscribers()">
+                <div class="doubts">
+                    <table class="doubts">
+                        <tr class="doubt-field">
+                            <td class="doubt-field">Subject</td>
+                            <td class="doubt-field right"><input type="text" class="text" name="subject" id="subject"></td>
+                        </tr>
+                        <tr class="doubt-field">
+                            <td class="doubt-field">Mail Body</td>
+                            <td class="doubt-field right"><textarea class="textarea" id="body"></textarea></td>
+                        </tr>
+                        <tr class="doubt-field">
+                            <td class="doubt-field doubt-field-btn" colspan="2">
+                                <input type="submit" class="btn" value="SEND">
+                                <input type="reset" class="btn" value="CLEAR">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+        <div class="subscribers">
+            <table>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                    <th>Remove</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srajan Gupta</td>
+                    <td>srajan.oel@gmail.com</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Vikram Chaurasia</td>
+                    <td>sid779@gmail.com</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>Website created by</h4>
+        <h3>Srajan Gupta</h3>
+        <h3>&copy; KIET Koders Korner</h5>
+    </div>
+</body>
+<script src="subscribers.js"></script>
+
+</html>

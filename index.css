@@ -284,6 +284,10 @@ table.contact {
     outline: none;
 }
 
+.sel:hover {
+    cursor: pointer;
+}
+
 .textarea {
     width: 25vw;
     height: 25vh;
@@ -580,4 +584,66 @@ td.subs .msg {
 p {
     color: #fff;
     font-size: 120%;
+}
+
+
+/*Subscribers*/
+
+.subscribers table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    margin: auto;
+}
+
+.subscribers table tr td,
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    font-size: 120%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20vw;
+}
+
+.subscribers table tr td,
+th:first-child {
+    width: 5vw;
+}
+
+.subscribers table tr th {
+    color: #0033ff;
+}
+
+.subscribers table tr td {
+    color: #ffe100;
+}
+
+.msg {
+    margin-left: 25%;
+    margin-bottom: 1%;
+    outline: none;
+}
+
+.message {
+    position: relative;
+    top: 5vh;
+    visibility: hidden;
+}
+
+.subscribers {
+    position: relative;
+    top: -40vh;
+}
+
+.doubter {
+    position: relative;
+    top: -80vh;
+}
+
+.doubtit {
+    position: relative;
+    top: -5vh;
 }
