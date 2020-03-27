@@ -443,6 +443,7 @@ td.subs .msg {
     border-width: 1px;
     border-radius: 2px;
     border-color: #454544;
+    outline: none;
 }
 
 .sub-subs {
@@ -453,6 +454,7 @@ td.subs .msg {
     width: 20vw;
     margin-left: 25%;
     margin-bottom: 1%;
+    outline: none;
 }
 
 .sub-subs:hover {
