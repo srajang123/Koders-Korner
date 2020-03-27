@@ -24,24 +24,24 @@
         </span>
     </div>
     <div class="body">
-        <form action="/" name="doubt">
+        <form action="/" name="doubt" method="post" onsubmit="return doubts()">
             <div class="doubts">
                 <table class="doubts">
                     <tr class="doubt-field">
                         <td class="doubt-field">Name</td>
-                        <td class="doubt-field right"><input type="text" class="text" name="" id=""></td>
+                        <td class="doubt-field right"><input type="text" class="text" name="name" id="name"></td>
                     </tr>
                     <tr class="doubt-field">
                         <td class="doubt-field">E-Mail</td>
-                        <td class="doubt-field right"><input type="text" class="text" name="" id=""></td>
+                        <td class="doubt-field right"><input type="text" class="text" name="email" id="email"></td>
                     </tr>
                     <tr class="doubt-field">
                         <td class="doubt-field">Problem Link</td>
-                        <td class="doubt-field right"><input type="text" class="text" name="" id=""></td>
+                        <td class="doubt-field right"><input type="text" class="text" name="link" id="link"></td>
                     </tr>
                     <tr class="doubt-field">
-                        <td class="doubt-field">Preferred Lngage</td>
-                        <td class="doubt-field right"><select class="text" name="" id="">
+                        <td class="doubt-field">Preferred Lnguage</td>
+                        <td class="doubt-field right"><select class="text" name="lang" id="lang">
                             <option value="-1">Select Preferred Language</option>
                             <option>C++</option>
                             <option>Java</option>
@@ -50,7 +50,7 @@
                     </tr>
                     <tr class="doubt-field">
                         <td class="doubt-field">Your Doubt</td>
-                        <td class="doubt-field right"><textarea class="textarea"></textarea></td>
+                        <td class="doubt-field right"><textarea class="textarea" id="doubt"></textarea></td>
                     </tr>
                     <tr class="doubt-field">
                         <td class="doubt-field doubt-field-btn" colspan="2">
@@ -69,5 +69,6 @@
     </div>
 </body>
 <script src="index.js"></script>
+<script src="doubts.js"></script>
 
 </html>
