@@ -22,7 +22,7 @@ x.forEach(el => {
         document.querySelector('#name').value = name;
         document.querySelector('#email').value = mail;
         document.querySelector('#doubt').value = doubt;
-        document.querySelectorAll('tr.doubt-field')[2].children[1].innerHTML = '<a href="' + link + '">Open Problem</a>';
+        document.querySelectorAll('tr.doubt-field')[2].children[1].innerHTML = '<input type="hidden" name="link" value="' + link + '">' + '<a href="' + link + '">Open Problem</a>';
     })
 });
 document.onkeydown = function(evt) {
