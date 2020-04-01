@@ -1,0 +1,40 @@
+<div class="error">
+    <h2>&nbsp;</h2>
+</div>
+<form action="/doubt" name="doubt" method="post" onsubmit="return doubts()">
+    <div class="doubts">
+        <table class="doubts">
+            <tr class="doubt-field">
+                <td class="doubt-field">Name</td>
+                <td class="doubt-field right"><input type="text" class="text" name="name" id="name"></td>
+            </tr>
+            <tr class="doubt-field">
+                <td class="doubt-field">E-Mail</td>
+                <td class="doubt-field right"><input type="text" class="text" name="email" id="email"></td>
+            </tr>
+            <tr class="doubt-field">
+                <td class="doubt-field">Problem Link</td>
+                <td class="doubt-field right"><input type="text" class="text" name="link" id="link"></td>
+            </tr>
+            <tr class="doubt-field">
+                <td class="doubt-field">Preferred Lnguage</td>
+                <td class="doubt-field right"><select class="text" name="lang" id="lang">
+                    <option value="-1">Select Preferred Language</option>
+                    <option>C++</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                </select></td>
+            </tr>
+            <tr class="doubt-field">
+                <td class="doubt-field">Your Doubt</td>
+                <td class="doubt-field right"><textarea class="textarea" id="doubt" name="doubt"></textarea></td>
+            </tr>
+            <tr class="doubt-field">
+                <td class="doubt-field doubt-field-btn" colspan="2">
+                    <input type="submit" class="btn" value="SEND">
+                    <input type="reset" class="btn" value="CLEAR">
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
