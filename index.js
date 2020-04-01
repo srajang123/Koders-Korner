@@ -5,7 +5,7 @@ function checkSubscribers() {
         return error("Please Enter Valid E-mail");
     }
     subscribeMSG();
-    return false;
+    return true;
 }
 
 function subscribeMSG() {
