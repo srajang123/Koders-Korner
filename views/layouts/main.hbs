@@ -21,11 +21,11 @@
             <li class="link {{#if contact}}active{{/if}}"><a href="/contact ">Contact Us</a></li>
         {{/if}}
         {{#if admin}}
-            <li class="link {{#if home}}active{{/if}}"><a href="/">Home</a></li>
-            <li class="link {{#if team}}active{{/if}}"><a href="/team">Team</a></li>
-            <li class="link {{#if subsciber}}active{{/if}}"><a href="/subscribers">Subscribers</a></li>
-            <li class="link {{#if doubts}}active{{/if}}"><a href="/doubts">Doubts</a></li>
-            <li class="link {{#if contact}}active{{/if}}"><a href="/contact ">Contact Us</a></li>
+            <li class="link {{#if home}}active{{/if}}"><a href="/admin/">Home</a></li>
+            <li class="link {{#if team}}active{{/if}}"><a href="/admin/team">Team</a></li>
+            <li class="link {{#if subsciber}}active{{/if}}"><a href="/admin/subscribers">Subscribers</a></li>
+            <li class="link {{#if doubts}}active{{/if}}"><a href="/admin/doubts">Doubts</a></li>
+            <li class="link {{#if contact}}active{{/if}}"><a href="/admin/contact ">Contact Us</a></li>
         {{/if}}
     </ul>
     </span>
@@ -39,7 +39,27 @@
         <h3>&copy; KIET Koders Korner</h5>
     </div>
 </body>
-<script src="index.js"></script>
-<script src="contact.js"></script>
-
+{{#if basic}}
+        <script src="../js/common.js"></script>
+    {{#if home}}
+        <script src="../js/index.js"></script>
+    {{/if}}
+    {{#if team}}
+        <script src="../js/team.js"></script>
+    {{/if}}
+    {{#if doubts}}
+        <script src="../js/doubts.js"></script>
+    {{/if}}
+    {{#if contact}}
+        <script src="../js/contact.js"></script>
+    {{/if}}
+{{/if}}
+{{#if admin}}
+    {{#if subscriber}}
+        <script src="../js/admin-subscribers.js"></script>
+    {{/if}}
+    {{#if doubts}}
+        <script src="../js/admin-doubts.js"></script>
+    {{/if}}
+{{/if}}
 </html>
