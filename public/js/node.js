@@ -24,18 +24,19 @@ app.get('/contact', (req, res, next) => {
 app.get('/team', (req, res, next) => {
     res.render('team', { basic: true, team: true })
 });
-app.get('/admin', (req, res, next) => {
-    res.redirect('/admin/doubts');
-})
 app.get('/admin/doubts', (req, res, next) => {
     res.render('admin-doubts', { admin: true, doubts: true });
 });
 app.get('/admin/subscribers', (req, res, next) => {
     res.render('admin-subscribers', { admin: true, subscriber: true });
-})
-app.get('/subscriber/remove/:usr', (req, res, next) => {
-    res.send(req.params.usr);
 });
+/*app.get('/subscriber/remove/:usr', (req, res, next) => {
+    console.log('Hi');
+    let user = req.body.usr;
+    db.execute('delete * from subscribers where email=?', [user])
+        .then(res => { res.redirect('/admin/subscribers/') })
+        .catch(err => { console.log(err) });
+});*/
 app.post('/subscribe', (req, res, next) => {
     let name = req.body.name;
     let email = req.body.email;
